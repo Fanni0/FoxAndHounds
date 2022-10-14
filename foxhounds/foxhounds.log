@@ -1,0 +1,83 @@
+2022-10-14 15:37:30.530 [main] ERROR service.map.MapReaderFacade - Unknown exception
+2022-10-14 15:38:54.498 [main] ERROR service.map.MapReaderFacade - Unknown exception
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:458)
+	at service.map.parser.MapParser.getValues(MapParser.java:32)
+	at service.map.parser.MapParser.parse(MapParser.java:18)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:31)
+	at Main.main(Main.java:35)
+2022-10-14 15:40:01.101 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:30)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 15:40:25.457 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:30)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:33:30.773 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:36:00.303 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:36:49.151 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:37:38.739 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:39:57.089 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:40:50.264 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:43:51.032 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:44:06.656 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:44:39.479 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 16:51:28.142 [main] ERROR service.map.MapReaderFacade - Unknown exception
+service.exception.MapValidationException: Invalid character
+	at service.map.validation.impl.MapWayValidator.validate(MapWayValidator.java:31)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 17:24:40.022 [main] ERROR service.map.MapReaderFacade - Unknown exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at service.map.parser.MapParser.getEndrow(MapParser.java:44)
+	at service.map.parser.MapParser.parse(MapParser.java:19)
+	at service.map.MapReaderFacade.readMap(MapReaderFacade.java:32)
+	at Main.main(Main.java:34)
+2022-10-14 18:47:49.676 [main] INFO  service.command.impl.ExitCommand - PROCESSING
+2022-10-14 18:55:26.525 [main] INFO  service.command.impl.ExitCommand - Setting exit
+2022-10-14 18:55:58.667 [main] INFO  service.command.impl.ExitCommand - Exiting game
+2022-10-14 19:34:44.230 [main] INFO  service.command.impl.ExitCommand - Exiting game
+2022-10-14 19:46:22.618 [main] INFO  service.command.impl.ExitCommand - Exiting game
