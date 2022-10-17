@@ -46,8 +46,10 @@ public class Main {
         GameState gameState = new GameState(mapVO, false);
         BufferedReader stinput = new BufferedReader(new InputStreamReader(System.in));
         UserInputReader userInputReader = new UserInputReader(stinput);
+        PrintWrapper printWrapper = new PrintWrapper();
+        MapPrinter mapPrinter = new MapPrinter(2,2, maputil, printWrapper);
         List<Command> commandList = Arrays.asList(
-                new PrintCommand(),
+                new PrintCommand(mapPrinter, gameState),
                 new ExitCommand(gameState)
         );
 
